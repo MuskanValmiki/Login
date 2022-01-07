@@ -23,19 +23,3 @@ exports.login=(req,res)=>{
         }
 }
 
-// module.exports = (app, knex) => {
-//     app.post("/users", (req, res) => {
-//       const userData = {
-//         userName: req.body.userName,
-//         password:req.body.password
-//       };
-//       knex("users")
-//         .insert(userData)
-//         .then((data) => {
-//           res.send(userData);
-//         })
-//         .catch((err) => {
-//           console.log(err);
-//         });
-//     });
-//   };
